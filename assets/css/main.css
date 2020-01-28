@@ -2378,6 +2378,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
+a {
+	color: rgba(37,63,150, 1);
+}
+
 .main.style2 a:hover {
 	color: #ffffff;
 }
@@ -2597,7 +2601,7 @@ body.is-preload #header:after {
 	background-color: #4686a0;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
-	background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #1f2a4d, #94a8ff 50%, #301677 95%);
+	background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #1f436d 5%, #344d69 30%, #253f96);
 	background-position: top left, center center, center center;
 	background-size: auto, cover, cover;
 	text-align: center;
@@ -2605,10 +2609,11 @@ body.is-preload #header:after {
 
 #footer a {
 	border-bottom-color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 1);
 }
 
 #footer a:hover {
-	color: #ffffff;
+	color: #6bd4c8;
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
